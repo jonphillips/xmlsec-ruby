@@ -1,6 +1,6 @@
 %module xmlsec
 %{ 
-#include <libxml/tree.h>
+#include <libxml2/libxml/tree.h>
 %}
 
 %typemap(in) xmlDocPtr {

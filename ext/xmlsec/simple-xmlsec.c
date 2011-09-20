@@ -3,11 +3,11 @@
 #include <assert.h>
 #include <ruby.h>
  
-#include <libxml/tree.h>
-#include <libxml/xmlmemory.h>
-#include <libxml/parser.h>
-#include <libxml/xpath.h>
-#include <libxml/xpathInternals.h>
+#include <libxml2/libxml/tree.h>
+#include <libxml2/libxml/xmlmemory.h>
+#include <libxml2/libxml/parser.h>
+#include <libxml2/libxml/xpath.h>
+#include <libxml2/libxml/xpathInternals.h>
  
 #include <xmlsec/xmlsec.h>
 #include <xmlsec/xmltree.h>
