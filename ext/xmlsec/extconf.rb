@@ -5,7 +5,7 @@ create_makefile('xmlsec')
 	# pkg-config files - this flag is needed to link against an 
 	# 64-bit libxmlsec1 but isn't included in the pkg-config 
 #	if `uname -p`.match 'x86_64'
-		$CFLAGS += " -DXMLSEC_NO_SIZE_T"
+#		$CFLAGS += " -DXMLSEC_NO_SIZE_T"
 #	end
 #	create_makefile('xmlsec')
 #else
